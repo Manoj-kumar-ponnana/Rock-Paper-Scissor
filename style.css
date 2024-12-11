@@ -168,7 +168,7 @@ body{
     animation: shake-animation 0.8s linear;
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 720px) {
     body{
         min-height:915px;
         display: flex;
