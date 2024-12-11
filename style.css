@@ -199,12 +199,12 @@ body{
         justify-content:space-around ;
     }
     .score h4{
-        font-size: 12px;
+        font-size: 14px;
         width: auto;
         text-align: center;
     }
     .score h5{
-        font-size: 10px;
+        font-size: 12px;
     }
     #player-start{
         padding: 0.5rem 1rem;
