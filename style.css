@@ -167,3 +167,68 @@ body{
 .shake-class{
     animation: shake-animation 0.8s linear;
 }
+
+@media screen and (max-width: 512px) {
+    body{
+        min-height:915px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .choice-container{
+        padding: 0rem 0rem;
+    }
+    .opt-img{
+        height: 50px;
+        width: 40px;
+    }
+    .opt-name{
+        font-size: 0.8rem;
+    }
+    #t1,#t2{
+        display: none;
+    }
+    .score{
+        left: 1rem;
+        position: relative;
+        width: inherit;
+    }
+    .sub-score{
+        display: flex;
+        justify-content:space-around ;
+    }
+    .score h4{
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+    .score h5{
+        font-size: 10px;
+    }
+    #player-start{
+        padding: 0.5rem 1rem;
+        font-size: 13px;
+        border-radius: 20px;
+    }
+    #restart{
+        padding: 0.5rem 1.5rem;
+    }
+    #screen{
+        width: 50vw;
+        height:5vh;
+        font-size: 1rem;
+    }
+    .hands-holder{
+        padding: 1rem 1rem;
+    }
+    .hands{
+        height:12vh;
+        width: 40vw;
+    }
+    .content-container{
+        padding: 0rem 0rem;
+    }
+    
+    /* 412 x 915 */
+}
